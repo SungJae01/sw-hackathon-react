@@ -1,0 +1,14 @@
+export * from "@/pages/sample_form";
+export * from "@/pages/home";
+export * from "@/pages/profile";
+export * from "@/pages/Graduate";
+export * from "@/pages/telecommunicationEngineering";
+export * from "@/pages/computerScienceAndEngineering.jsx";
+export * from "@/pages/dataScience.jsx";
+export * from "@/pages/PathFinderPage";
+export * from "@/pages/ClickBattle.jsx";
+export { ICT } from "./ICT.jsx";
+export { CIS } from "./CIS.jsx";
+export { Computer_SW } from "./Computer_SW.jsx";
+export { Media_SW } from "./Media_SW.jsx";
+export { Data_Science } from "./Data_Science.jsx";
