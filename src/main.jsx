@@ -13,7 +13,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import {BrowserRouter} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 import {ThemeProvider} from "@material-tailwind/react";
 import "./assets/css/tailwind.css";
 import {DevSupport} from "@react-buddy/ide-toolbox";
@@ -21,7 +21,7 @@ import {ComponentPreviews, useInitial} from "../dev/index.js";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-        <BrowserRouter>
+        <HashRouter>
             <ThemeProvider>
                 <DevSupport ComponentPreviews={ComponentPreviews}
                             useInitialHook={useInitial}
@@ -29,6 +29,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
                     <App/>
                 </DevSupport>
             </ThemeProvider>
-        </BrowserRouter>
+        </HashRouter>
     </React.StrictMode>
 );
