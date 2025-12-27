@@ -178,7 +178,7 @@ export function Data_Science() {
                                 custom={index} // custom prop 추가
                             >
                                 <TeamCard
-                                    img={img}
+                                    img={import.meta.env.BASE_URL + img}
                                     name={name}
                                     position={position}
                                     socials={socials}

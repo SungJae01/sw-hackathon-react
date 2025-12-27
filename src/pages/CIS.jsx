@@ -188,7 +188,7 @@ export function CIS() {
                                 custom={index}
                             >
                                 <TeamCard
-                                    img={img}
+                                    img={import.meta.env.BASE_URL + img}
                                     name={name}
                                     position={position}
                                     socials={socials}

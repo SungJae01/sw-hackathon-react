@@ -177,7 +177,7 @@ export function Media_SW() {
                                 custom={index} // custom prop 추가
                             >
                                 <TeamCard
-                                    img={img}
+                                    img={import.meta.env.BASE_URL + img}
                                     name={name}
                                     position={position}
                                     socials={socials}
