@@ -109,13 +109,23 @@ export function Home() {
           >
             브라우저가 비디오 태그를 지원하지 않습니다.
           </video> */}
-          <iframe 
-            width="100%" 
-            height="100%" 
-            src="https://www.youtube.com/embed/영상ID?autoplay=1&mute=1&loop=1&playlist=영상ID" 
+          {/* <iframe 
+            className="absolute top-0 left-0 w-full h-full object-cover z-0"
+            src="https://www.youtube.com/embed/FCMCuWiWVJ4"
             frameBorder="0" 
             allow="autoplay; encrypted-media" 
             allowFullScreen
+          >
+            브라우저가 비디오 태그를 지원하지 않습니다.
+          </iframe> */}
+          <iframe  
+            className="absolute z-0 top-1/2 left-1/2 w-[125%] h-[125%] -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+            src="https://www.youtube.com/embed/tGq-eG0RqFg?autoplay=1&mute=1&controls=0&loop=1&playlist=tGq-eG0RqFg" 
+            title="USW video" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen
           >
             브라우저가 비디오 태그를 지원하지 않습니다.
           </iframe>
