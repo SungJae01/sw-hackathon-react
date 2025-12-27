@@ -67,14 +67,14 @@ const CampusGuide = () => {
                 {/* Link 컴포넌트로 카드를 감싸서 라우팅 기능 추가 */}
                 <Link to="/pathfinder" className="w-full max-w-sm">
                     <Card className="shadow-lg border shadow-gray-500/10 rounded-lg w-full
-                                 ring-1 ring-gray-200
-                                  hover:ring-green-500 hover:ring-opacity-75
-                                 transition-all duration-300 ease-in-out
-                                 hover:shadow-2xl hover:shadow-green-500/40 hover:scale-105">
+                                ring-1 ring-gray-200
+                                hover:ring-green-500 hover:ring-opacity-75
+                                transition-all duration-300 ease-in-out
+                                hover:shadow-2xl hover:shadow-green-500/40 hover:scale-105">
                         <CardHeader floated={false} className="relative h-56">
                             <img
                                 alt="Card Image"
-                                src="/img/campusmap_img_2024.jpg"
+                                src={`${import.meta.env.BASE_URL}img/campusmap_img_2024.jpg`}
                                 className="h-full w-full object-cover"
                             />
                         </CardHeader>
