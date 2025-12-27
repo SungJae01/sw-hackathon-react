@@ -391,7 +391,7 @@ export function Suwon_navi() {
                                 >
                                     <img
                                         ref={imgRef}
-                                        src="/img/campusmap_img_2024.jpg"
+                                        src={`${import.meta.env.BASE_URL}img/campusmap_img_2024.jpg`}
                                         alt="수원대학교 캠퍼스 지도"
                                         className="w-full h-auto rounded-lg border border-gray-200"
                                         onLoad={handleImageLoad}

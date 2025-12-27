@@ -99,16 +99,26 @@ export function Home() {
           )}
 
           {/* 🔹 배경 영상 삽입 */}
-          <video
+          {/* <video
               className="absolute top-0 left-0 w-full h-full object-cover z-0"
               autoPlay
               muted
               loop
               playsInline
+              src={uswVideo} controls
           >
-            <source src="/src/assets/video/USW_video.mp4" type="video/mp4" />
             브라우저가 비디오 태그를 지원하지 않습니다.
-          </video>
+          </video> */}
+          <iframe 
+            width="100%" 
+            height="100%" 
+            src="https://www.youtube.com/embed/영상ID?autoplay=1&mute=1&loop=1&playlist=영상ID" 
+            frameBorder="0" 
+            allow="autoplay; encrypted-media" 
+            allowFullScreen
+          >
+            브라우저가 비디오 태그를 지원하지 않습니다.
+          </iframe>
 
           {/* 🔹 오버레이 (약간 어둡게) */}
           <div className="absolute top-0 h-full w-full bg-black/40 z-10" />
