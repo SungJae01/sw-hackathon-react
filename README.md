@@ -13,6 +13,43 @@ LLM을 이용한 수원대학교 지능형SW융합대학의 정보 제공 및 �
 
 <img src="public/img/front_image.png">
 
+---
+
+## 🤖 Past Presentation Slides
+<img width="2667" height="1500" alt="suwonai 발표-04" src="https://github.com/user-attachments/assets/272d70d9-64c4-4c49-b380-76b6f6192279" />
+<img width="2667" height="1500" alt="suwonai 발표-05" src="https://github.com/user-attachments/assets/1839f3b2-4360-4f91-a66e-e6525892f781" />
+<img width="2667" height="1500" alt="suwonai 발표-06" src="https://github.com/user-attachments/assets/6abc3ffc-71c1-45b2-b4e9-39e8acb4c361" />
+<img width="2667" height="1500" alt="suwonai 발표-07" src="https://github.com/user-attachments/assets/4cb59a10-733e-43cd-8a3e-533fd2746ba7" />
+
+---
+
+## 🤖 Function Description
+
+### 🤖 정보 제공
+<img width="2667" height="1500" alt="suwonai 발표-12" src="https://github.com/user-attachments/assets/72d9cfaf-ab1a-4e6e-b24a-6ccbca1ac3ad" />
+- 학부학과, 졸업 요건 등 정보 제공
+
+---
+
+### 🤖 수벅수벅
+<img width="2667" height="1500" alt="suwonai 발표-15" src="https://github.com/user-attachments/assets/80b8e34d-14c8-4271-8af4-8efcccb30b62" />
+- 캠퍼스 내 건물 간 이동 시간 계산을 통해 연강을 잡으면 안되는 곳을 알려줌
+
+---
+
+### 🤖 딸깍
+<img width="2667" height="1500" alt="suwonai 발표-19" src="https://github.com/user-attachments/assets/7d83ce3f-fbcb-440a-a672-45660f8ca659" />
+- 학과별 오락용 클릭 배틀
+
+---
+
+### 🤖 수워나이
+<img width="2667" height="1500" alt="suwonai 발표-21" src="https://github.com/user-attachments/assets/6ada7b8c-971e-4c47-ac1f-31ad0cd192fc" />
+- 학교 생활에 필요한 졸업 요건, 학과 전화번호 등등 AI가 답변하는 기능
+
+
+---
+
 ## ✨ 주요 기능
 
 - 🏠 **홈페이지**:
